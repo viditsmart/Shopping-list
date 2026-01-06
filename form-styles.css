@@ -3,6 +3,8 @@ form {
     width: 50%;
     margin: 0 auto;
     /* Center the form on the page */
+    padding: 20px;
+
 }
 
 .form-group {
@@ -36,6 +38,8 @@ textarea {
 
     /* Light background color */
     font-size: 16px;
+    background-color: #f0f8ff;
+    
 }
 
 /* Styling for Radio and Checkboxes */
@@ -89,5 +93,36 @@ button[type="reset"] {
 }
 
 button[type="reset"]:hover {
-    background-color: #cc0000;
+    background-color: #cc0000
 }
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #26408b;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 0;
+    left: 0;
+}
+
+nav {
+    background-color: #279af1;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    line-height: 40px;
+    
+}
+
+main {
+    margin-top: 200px; /* Adjust based on nav height */
+}
+
