@@ -4,10 +4,34 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Feedback Form</title>
-        <link rel="stylesheet" href="css/color-scheme.css" />
+        <link rel="stylesheet" href="color-scheme.css" />
 
          <!-- TODO 7 - Add an internal <style> block and insert the required button styles.  -->
+        <style>
+            .submit-button {
+                background-color: #28a745; /* Green */
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+            }
 
+            .submit-button:hover {
+                background-color: #218838; /* Darker green on hover */
+            }
+
+            .reset-button {
+                background-color: #f44336; /* Red */
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -35,14 +59,14 @@
                         type="text"
                         id="username"
                         name="username"
-                        value="Value" /><br /><br />
+                         /><br /><br />
 
                     <label for="password">Password:</label>
                     <input
                         type="password"
                         id="password"
                         name="password"
-                        value="Value" /><br /><br />
+                         /><br /><br />
 
                     <label for="contact-method">Contact me using:</label>
                     <select id="contact-method" name="contact-method">
